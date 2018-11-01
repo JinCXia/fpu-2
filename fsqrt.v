@@ -4143,7 +4143,7 @@ module fsqrt(
 
     wire [7:0] ey;
     wire [22:0] my;
-    assign ey = (ex == 0) ? 0: (8'd63 + {1'b0,ex[7:1]} + odd_flag - (x[23:0] == {1'b1,23'b0}));
+    assign ey = (ex == 0) ? 0: (8'd63 + {1'b0,ex[7:1]} + odd_flag + (x[23:0] == {1'b0,{23{1'b1}}}));
     assign my = (mya[47:47]) ? mya[46:24]: mya[45:23];
 
     assign y = {1'b0,ey,my};
