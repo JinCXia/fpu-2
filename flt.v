@@ -1,4 +1,4 @@
-`default_nettype none
+
 
 module flt(
     input wire [31:0] x1,

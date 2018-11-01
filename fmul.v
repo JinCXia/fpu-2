@@ -1,4 +1,3 @@
-`default_nettype none
 
 module fmul(
     input wire [31:0] x1,

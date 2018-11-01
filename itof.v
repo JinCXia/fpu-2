@@ -1,4 +1,3 @@
-`default_nettype none
 
 module itof(
     input wire [31:0] x,

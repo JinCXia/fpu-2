@@ -1,4 +1,3 @@
-`default_nettype none
 
 module fneg(
     input wire [31:0] x1,

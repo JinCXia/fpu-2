@@ -1,4 +1,3 @@
-`default_nettype none
 
 module fsqrt(
     input wire [31:0] x,
